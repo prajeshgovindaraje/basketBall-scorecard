@@ -1,0 +1,121 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+
+
+    background-image: url("images/basket.jpg");
+
+    background-size: contain;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 760px;
+    width: 1400px;
+    color: #9AABD8;
+
+}
+
+.score-card{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    /* padding: 180px; */
+    width: 300px;
+    height: 300px;
+    padding-bottom: 50px;
+
+
+    /* margin-bottom: 500px; */
+}
+
+.score-cards-container{
+    background-color: #00000050;
+    border-radius: 30px;
+    /* border: 10px solid green; */
+    display: flex;
+    padding: 60px;
+
+    margin-bottom: 40px;
+}
+.score-cards-container h1{
+
+    /* color: yellow; */
+    /* border: 2px solid beige; */
+    background-color: #00000030;
+    border: 1px solid #9AABD8;
+    text-shadow: 0px 0px 2px black;
+    padding: 5px 10px;
+
+}
+
+.leading-highlight{
+    color: #4FF96D;
+}
+
+
+.score-container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 140px;
+    height: 100px;
+    /* border: 1px solid yellow; */
+    background-color: #080001;
+    font-size: 80px;
+    color: #F94F6D;
+    /* color: #4FF96D;; */
+    font-family: 'Cursed Timer ULiL', sans-serif;
+
+}
+
+.score-container p{
+    
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+button{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border: 1px solid #9AABD8;
+    background:#9AABD830;
+    color: #9AABD8;
+    font-size: 40px;
+    
+
+}
+
+.score-increase-btns button{
+
+    padding: 10px 10px;
+    margin: auto 4px;
+
+}
+
+#new-game-btn{
+    background-color:#000000 ;
+    padding: 10px;
+    /* color: #F94F6D;  */
+}
+
+#result-text{
+    text-align: center;
+    font-size: 20px;
+    background-color: #00000030;
+    width: 100%;
+    color: #4FF96D;
+    font-family:Prompt ;
+}

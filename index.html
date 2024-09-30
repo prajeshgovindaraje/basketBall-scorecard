@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>BasketBall Scorecard</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Parisienne&family=Playwrite+DE+Grund:wght@100..400&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div class="container">
+    <div class="score-cards-container">
+        <div class="score-card" id="home-score-card">
+            <h1>HOME</h1>
+            <div class="score-container ">
+                <p id="home-score">0</p>
+            </div>
+            <div class="score-increase-btns">
+                <button class="home-score-incr" onclick="addOne(this.getAttribute('class'))">+1</button>
+                <button class="home-score-incr" onclick="addTwo(this.getAttribute('class'))">+2</button>
+                <button class="home-score-incr" onclick="addThree(this.getAttribute('class'))">+3</button>
+            </div>
+        </div>
+        <div class="score-card" id="away-score-card">
+            <h1>AWAY</h1>
+            <div class="score-container">
+                <p id="away-score">0</p>
+            </div>
+            <div class="score-increase-btns">
+                <button class="away-score-incr" onclick="addOne(this.getAttribute('class'))" >+1</button>
+                <button class="away-score-incr" onclick="addTwo(this.getAttribute('class'))" >+2</button>
+                <button class="away-score-incr" onclick="addThree(this.getAttribute('class'))" >+3</button>
+            </div>
+        </div>
+
+    </div>
+        <p id="result-text"> No Recent Game </p>
+        <button id="new-game-btn" onclick="resetScores()">End Game</button>
+
+
+
+</div>
+    
+
+<script src="index.js"></script>
+
+</body>
+</html>
